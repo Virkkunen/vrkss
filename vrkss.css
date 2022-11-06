@@ -209,3 +209,9 @@ Colors
 }
 
 /* tags */
+
+body {
+  background-color: var(--bg0);
+  color: var(--text);
+  font-family: Fira Sans, sans-serif;
+}
