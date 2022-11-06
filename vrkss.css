@@ -14,6 +14,7 @@ Fonts
 /*
 Colors
 -> catppuccin mocha
+-> https://github.com/catppuccin/catppuccin
 */
 :root {
   --bg0: #1e1e2e;
@@ -65,3 +66,117 @@ Colors
   --lavender: #b4befe;
   --lavender-bold: #7287fd;
 }
+
+/* bg colors */
+.bg-rose {
+  background-color: var(--rose);
+}
+
+.bg-rose-bold {
+  background-color: var(--rose-bold);
+}
+
+.bg-flamingo {
+  background-color: var(--flamingo);
+}
+
+.bg-flamingo-bold {
+  background-color: var(--flamingo-bold);
+}
+
+.bg-pink {
+  background-color: var(--pink);
+}
+
+.bg-pink-bold {
+  background-color: var(--pink-bold);
+}
+
+.bg-mauve {
+  background-color: var(--mauve);
+}
+
+.bg-mauve-bold {
+  background-color: var(--mauve-bold);
+}
+
+.bg-red {
+  background-color: var(--red);
+}
+
+.bg-red-bold {
+  background-color: var(--red-bold);
+}
+
+.bg-maroon {
+  background-color: var(--maroon);
+}
+
+.bg-maroon-bold {
+  background-color: var(--maroon-bold);
+}
+
+.bg-peach {
+  background-color: var(--peach);
+}
+
+.bg-peach-bold {
+  background-color: var(--peach-bold);
+}
+
+.bg-yellow {
+  background-color: var(--yellow);
+}
+
+.bg-yellow-bold {
+  background-color: var(--yellow-bold);
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.bg-green-bold {
+  background-color: var(--green-bold);
+}
+
+.bg-teal {
+  background-color: var(--teal);
+}
+
+.bg-teal-bold {
+  background-color: var(--teal-bold);
+}
+
+.bg-sky {
+  background-color: var(--sky);
+}
+
+.bg-sky-bold {
+  background-color: var(--sky-bold);
+}
+
+.bg-sapphire {
+  background-color: var(--sapphire);
+}
+
+.bg-sapphire-bold {
+  background-color: var(--sapphire-bold);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-blue-bold {
+  background-color: var(--blue-bold);
+}
+
+.bg-lavender {
+  background-color: var(--lavender);
+}
+
+.bg-lavender-bold {
+  background-color: var(--lavender-bold);
+}
+
