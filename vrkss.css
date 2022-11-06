@@ -229,7 +229,6 @@ Colors
 }
 
 /* Tags */
-
 body {
   background-color: var(--bg0);
   color: var(--text);
@@ -237,12 +236,11 @@ body {
 }
 
 /* Buttons */
-
 button {
   background-color: var(--blue);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 6px;
-  color: var(--text);
+  color: var(--surface0);
   padding: 20px;
   transition: 0.25s ease-in-out;
 }
@@ -254,4 +252,37 @@ button:hover {
 button:active {
   border: 3px solid rgba(255, 255, 255, 0.2);
   filter: brightness(75%);
+}
+
+/* margin & padding */
+.m-0 {
+  margin: 0;
+}
+
+.m-1 {
+  margin: 4px;
+}
+
+.m-2 {
+  margin: 8px;
+}
+
+.m-3 {
+  margin: 12px;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-1 {
+  padding: 4px;
+}
+
+.p-2 {
+  padding: 8px;
+}
+
+.p-3 {
+  padding: 12px;
 }
