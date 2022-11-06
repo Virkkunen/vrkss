@@ -32,6 +32,26 @@ Fonts
   font-weight: 800;
 }
 
+.text-light {
+  color: var(--text-light);
+}
+
+.subtext {
+  color: var(--subtext1);
+}
+
+.subtext-light {
+  color: var(--subtext1-light);
+}
+
+.subtext-2 {
+  color: var(--subtext2);
+}
+
+.subtext-2-light {
+  color: var(--subtext2-light);
+}
+
 /* css reset */
 * {
   box-sizing: border-box;
