@@ -389,7 +389,6 @@ button:disabled {
 }
 
 /* Header */
-
 .header {
   align-items: center;
   background-color: var(--bg-darker);
@@ -402,4 +401,20 @@ button:disabled {
   justify-content: space-between;
   padding: 48px;
   width: 100%;
+}
+
+/* Section */
+.section {
+  background-color: var(--bg-dark);
+  border-radius: 6px;
+  margin-bottom: 12px;
+  padding: 24px;
+}
+
+/* Flex */
+.flex {
+  align-items: center;
+  column-gap: 12px;
+  display: flex;
+  row-gap: 12px;
 }
