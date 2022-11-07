@@ -309,6 +309,11 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 12px;
 }
 
+::selection {
+  background-color: var(--lavender);
+  color: var(--bg0);
+}
+
 /* Buttons */
 button {
   background-color: var(--blue-bold);
