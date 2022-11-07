@@ -228,6 +228,65 @@ Colors
   background-color: var(--lavender-bold);
 }
 
+.bg-dark {
+  background-color: var(--bg-dark);
+}
+
+.bg-darker {
+  background-color: var(--bg-darker);
+}
+
+.bg-surface0 {
+  background-color: var(--surface0);
+}
+
+.bg-surface1 {
+  background-color: var(--surface1);
+}
+
+.bg-surface2 {
+  background-color: var(--surface2);
+}
+
+.bg-overlay0 {
+  background-color: var(--overlay0);
+}
+
+.bg-overlay1 {
+  background-color: var(--overlay1);
+}
+
+.bg-overlay2 {
+  background-color: var(--overlay2);
+}
+
+/* Text colors */
+
+.text {
+  color: var(--text);
+}
+
+.subtext {
+  color: var(--subtext1);
+}
+
+.subtext2 {
+  color: var(--subtext2);
+}
+
+.text-light {
+  color: var(--text-light);
+}
+
+.subtext-light {
+  color: var(--subtext1-light);
+}
+
+.subtext2-light {
+  color: var(--subtext2-light);
+}
+
+
 /* Tags */
 body {
   background-color: var(--bg0);
