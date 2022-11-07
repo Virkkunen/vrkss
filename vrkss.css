@@ -240,7 +240,7 @@ button {
   background-color: var(--blue-bold);
   border: 1px solid outset rgba(255, 255, 255, 0.2);
   border-radius: 6px;
-  color: var(--subtext1);
+  color: rgba(255, 255, 255, 0.85);
   font-weight: 500;
   padding: 20px;
   transition: 0.25s ease-in-out;
@@ -253,6 +253,23 @@ button:hover {
 button:active {
   border: 3px solid outset rgba(255, 255, 255, 0.2);
   filter: brightness(75%);
+}
+
+button:disabled {
+  color: rgba(255, 255, 255, 0.65);
+  filter: saturate(25%) brightness(75%);
+}
+
+.btn-confirm {
+  background-color: var(--green-bold);
+}
+
+.btn-warn {
+  background-color: var(--yellow-bold);
+}
+
+.btn-cancel {
+  background-color: var(--red-bold);
 }
 
 .btn-group {
