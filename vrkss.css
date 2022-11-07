@@ -299,6 +299,15 @@ body {
   width: 768px;
 }
 
+span, p {
+  color: var(--subtext1);
+  margin-bottom: 6px;
+}
+
+h1, h2, h3, h4, h5 {
+  margin-bottom: 6px;
+}
+
 /* Buttons */
 button {
   background-color: var(--blue-bold);
@@ -417,4 +426,18 @@ button:disabled {
   column-gap: 12px;
   display: flex;
   row-gap: 12px;
+}
+
+/* Inputs */
+input[type="text"] {
+  background-color: rgba(0,0,0,0);
+  border: 0;
+  border-bottom: 1px solid var(--overlay0);
+  color: var(--text);
+  padding: 12px;
+}
+
+input:focus {
+  border-color: var(--blue);
+  outline: 0;
 }
