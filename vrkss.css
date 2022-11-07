@@ -294,6 +294,7 @@ body {
   display: flex;
   flex-flow: column;
   font-family: Fira Sans, sans-serif;
+  gap: 12px;
   justify-content: center;
   margin: auto;
   width: 768px;
@@ -313,7 +314,7 @@ button {
   background-color: var(--blue-bold);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 6px;
-  color: rgba(255, 255, 255, 0.85);
+  color: var(--bg0);
   cursor: pointer;
   font-weight: 600;
   padding: 20px;
@@ -325,25 +326,46 @@ button:hover {
 }
 
 button:active {
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   filter: brightness(75%);
 }
 
 button:disabled {
   color: rgba(255, 255, 255, 0.65);
+  cursor: default;
   filter: saturate(25%) brightness(75%);
+  font-weight: 400;
 }
 
 .btn-confirm {
+  background-color: var(--green);
+}
+
+.btn-confirm-bold {
   background-color: var(--green-bold);
+  color: rgba(255, 255, 255, 0.65);
 }
 
 .btn-warn {
+  background-color: var(--yellow);
+}
+
+.btn-warn-bold {
   background-color: var(--yellow-bold);
+  color: rgba(255, 255, 255, 0.65);
 }
 
 .btn-cancel {
+  background-color: var(--red);
+}
+
+.btn-cancel-bold {
   background-color: var(--red-bold);
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.btn-bold {
+  color: rgba(255, 255, 255, 0.65);
 }
 
 .btn-group {
