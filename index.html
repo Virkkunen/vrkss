@@ -22,7 +22,7 @@
     <p>Exercitationem veritatis voluptatibus ducimus nihil saepe provident excepturi.</p>
     <p>Cumque minima eos tenetur laboriosam placeat suscipit, nam, magni ab pariatur dolorum facilis libero!</p>
   </div>
-  <div class="section flex">
+  <div class="section section-row align-center">
     <label for="radio">
       <input type="radio" />
     </label>
@@ -36,45 +36,58 @@
       <input type="checkbox" checked />
     </label>
     <label for="text">
-      <input type="text" placeholder="text input" />
+      <input type="text" placeholder="text input AaBbCc" />
     </label>
     <label for="text-input-value">
       <input type="text" placeholder="text-input with value" value="Lorem ipsum pri"/>
     </label>
     <label for="number-input">
-      <input type="number" placeholder="number" />
+      <input type="number" placeholder="number 012345" />
     </label>
     <label for="number-input-value">
       <input type="number" placeholder="number-input with value" value="119"/>
     </label>
   </div>
-  <div class="btn-group">
-    <button type="button">Button</button>
-    <button type="button" class="btn-confirm">Confirm</button>
-    <button type="button" class="btn-warn">Warn</button>
-    <button type="button" class="btn-cancel">Cancel</button>
-    <button type="button" disabled>Disabled</button>
+  <div class="section">
+    <div class="btn-group">
+      <button type="button">Button</button>
+      <button type="button" class="btn-confirm">Confirm</button>
+      <button type="button" class="btn-warn">Warn</button>
+      <button type="button" class="btn-cancel">Cancel</button>
+      <button type="button" disabled>Disabled</button>
+    </div>
+    <div>
+      <button type="button">Button</button>
+      <button type="button" class="btn-confirm">Confirm</button>
+      <button type="button" class="btn-warn">Warn</button>
+      <button type="button" class="btn-cancel">Cancel</button>
+      <button type="button" class="btn-cancel" disabled>Disabled</button>
+    </div>
+    <div class="btn-group">
+      <button type="button" class="btn-bold">Button</button>
+      <button type="button" class="btn-confirm-bold">Confirm</button>
+      <button type="button" class="btn-warn-bold">Warn</button>
+      <button type="button" class="btn-cancel-bold">Cancel</button>
+      <button type="button" class="btn-confirm-bold" disabled>Disabled</button>
+    </div>
+    <div class="btn-row">
+      <div class="btn-group">
+        <button type="button" class="btn-bold">Button</button>
+        <button type="button" class="btn-confirm-bold">Confirm</button>
+      </div>
+      <button type="button" class="btn-warn-bold">Warn</button>
+      <div class="btn-group">
+        <button type="button" class="btn-cancel-bold">Cancel</button>
+        <button type="button" class="btn-bold" disabled>Disabled</button>
+      </div>
+    </div>
   </div>
-  <div>
-    <button type="button">Button</button>
-    <button type="button" class="btn-confirm">Confirm</button>
-    <button type="button" class="btn-warn">Warn</button>
-    <button type="button" class="btn-cancel">Cancel</button>
-    <button type="button" class="btn-cancel" disabled>Disabled</button>
+  <div class="section section-row">
+    <div class="spinner"></div>
+    <div class="spinner spinner-2x"></div>
+    <div class="spinner spinner-3x"></div>
+    <div class="spinner spinner-4x"></div>
   </div>
-  <div class="btn-group">
-    <button type="button" class="btn-bold">Button</button>
-    <button type="button" class="btn-confirm-bold">Confirm</button>
-    <button type="button" class="btn-warn-bold">Warn</button>
-    <button type="button" class="btn-cancel-bold">Cancel</button>
-    <button type="button" class="btn-confirm-bold" disabled>Disabled</button>
-  </div>
-  <div>
-    <button type="button" class="btn-bold">Button</button>
-    <button type="button" class="btn-confirm-bold">Confirm</button>
-    <button type="button" class="btn-warn-bold">Warn</button>
-    <button type="button" class="btn-cancel-bold">Cancel</button>
-    <button type="button" class="btn-bold" disabled>Disabled</button>
-  </div>
+  
 </body>
 </html>

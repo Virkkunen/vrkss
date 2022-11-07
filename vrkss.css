@@ -290,6 +290,7 @@ Colors
 
 
 /* Tags */
+/* TODO: fix responsive layout */
 @media screen and (max-width: 767.8px) {
   body {
     flex-flow: row wrap;
@@ -411,6 +412,17 @@ button:disabled {
   border-radius: 0 6px 6px 0;
 }
 
+.btn-row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* TODO: fix button sizing */
+.btn-row button {
+  display: flex;
+  flex-grow: 0;
+}
+
 /* Margin & Padding */
 .m-0 {
   margin: 0;
@@ -463,8 +475,19 @@ button:disabled {
 .section {
   background-color: var(--bg-dark);
   border-radius: 6px;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 12px;
   margin-bottom: 12px;
   padding: 24px;
+}
+
+.section-row {
+  flex-flow: row wrap;
+}
+
+.align-center {
+  align-items: center;
 }
 
 /* Flex */
@@ -497,3 +520,37 @@ input[type="number"] {
 }
 
 /* Animations */
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  animation: spinner 1.2s linear infinite;
+  border: 4px solid var(--overlay2);
+  border-radius: 50%;
+  border-top: 4px solid var(--blue-bold);
+  height: 16px;
+  width: 16px;
+}
+
+.spinner-2x {
+  height: 32px;
+  width: 32px;
+}
+
+.spinner-3x {
+  height: 48px;
+  width: 48px;
+}
+
+.spinner-4x {
+  height: 64px;
+  width: 64px;
+}
