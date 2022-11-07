@@ -113,6 +113,9 @@ Colors
   --blue-bold: #1e66f5;
   --lavender: #b4befe;
   --lavender-bold: #7287fd;
+
+  --sans: 'Fira Sans', sans-serif;
+  --mono: 'Fira Code', monospace;
 }
 
 /* bg colors */
@@ -317,8 +320,6 @@ body {
   justify-content: center;
 }
 
-
-
 span, p {
   color: var(--subtext1);
   margin-bottom: 6px;
@@ -475,7 +476,7 @@ button:disabled {
 }
 
 /* Inputs */
-input[type="text"] {
+input[type="text"], input[type="text-area"], input[type="number"] {
   background-color: rgba(0,0,0,0);
   border: 0;
   border-bottom: 1px solid var(--overlay0);
@@ -487,3 +488,12 @@ input:focus {
   border-color: var(--blue);
   outline: 0;
 }
+
+input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  font-family: var(--mono);
+}
+
+/* Animations */
